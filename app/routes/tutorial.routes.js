@@ -13,7 +13,6 @@ module.exports = app => {
   router.put("/:id", tutorials.update);
   // Delete a Tutorial with id
   router.delete("/:id", tutorials.delete);
-  // Delete all Tutorials
-  router.delete("/", tutorials.deleteAll);
-  app.use('/api/tutorials', router);
+
+  app.use('/tutorials', router);
 };
