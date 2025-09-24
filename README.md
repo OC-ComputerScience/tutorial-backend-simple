@@ -24,7 +24,7 @@ npm install
     - Add the following line as the **last line**:
     
     ```
-    ProxyPass /tutorial-simple http://localhost:3100/tutorial-simple 
+    ProxyPass /tutorial-simple http://localhost:3101/tutorial-simple 
     ```
     
     - Save the file.
@@ -39,7 +39,7 @@ npm install
     - DB_PW = '**your-local-database-password**'
     - DB_USER = '**your-local-database-username**' (usually "root")
     - DB_NAME = '**your-local-database-name**'
-    - PORT = '**port for backend **'
+    - PORT = '3101'
 
 6. Compile and run the project locally.
 ```
