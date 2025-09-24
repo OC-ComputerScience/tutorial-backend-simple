@@ -55,4 +55,5 @@ npm run start
     - DB_USER = '**your-local-database-username**' 
     - DB_NAME = '**your-local-database-name**'
     - PORT = '**port for backend **'
+    - SERVER_SSH_KEY = '** SSH key from the PEM file for AWS EC2 instance **'
 
